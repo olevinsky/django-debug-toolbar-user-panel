@@ -28,7 +28,7 @@
 
 <h4>Login as any user</h4>
 
-<form method="POST" action="{% url debug-userpanel-login-form %}">
+<form method="POST" action="{% url 'debug-userpanel-login-form' %}">
   {{ form.as_p }}
   <button type="submit">Login</button>
 </form>
